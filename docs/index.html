@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+    <meta charset="UTF-8" />
+    <title>NOTTOLI SIMULATOR</title>
+    <meta id="viewport" name="viewport" content="width=device-width" />
+    <meta name="description" content="メッセージアプリののっとりを体験できます。" />
+    <meta name="keywords" content="すみません、ちょっといいですか？,いま忙しいですか？,手伝ってもらっていいですか？,近くにコンビニありますか？,近くのコンピニでポイントカード買うの手伝ってくれますか？,ポイソトカードについては直接ユンビニ店員さんに聞いたら教えてくれると思いますけど,5000点のカードを2枚,よろしければすぐ買っていただきたいです,買ったら後ろのパスワードを削り落として写真を撮ってもらいます,写真をとって送ってください,買いましたか？" />
+    <meta name="author" content="君塚史高" />
+    <meta name="generator" content="Sublime Text 2" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta property="fb:app_id" content="464784067039954" />
+    <meta property="og:title" content="NOTTOLI SIMULATOR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://nottoli.kimizuka.fm" />
+    <meta property="og:image" content="http://nottoli.kimizuka.fm/img/ogp.png" />
+    <meta property="og:site_name" content="NOTTOLI SIMULATOR" />
+    <meta property="og:description" content="メッセージアプリののっとりを体験できます。" />
+    <meta name="twitter:card" content="player" />
+    <meta name="twitter:site" content="ki_230" />
+    <meta name="twitter:title" content="NOTTOLI SIMULATOR">
+    <meta name="twitter:description" content="メッセージアプリののっとりを体験できます。" />
+    <meta name="twitter:image:src" content="http://nottoli.kimizuka.fm/img/ogp.png" />
+    <meta name="twitter:player" content="https://kimizuka.github.io/twitter-cards/player/nottoli/" />
+    <meta name="twitter:player:width" content="320" />
+    <meta name="twitter:player:height" content="320" />
+    <link rel="canonical" href="http://nottoli.kimizuka.fm" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" href="./img/appicon.png" />
+  </head>
+  <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : "464784067039954",
+          xfbml      : true,
+          version    : "v2.5"
+        });
+      };
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, "script", "facebook-jssdk"));
+    </script>
+    <script>
+      document.getElementById("viewport").setAttribute("content", "width=device-width,user-scalable=no");
+    </script>
+    <div id="fb-root"></div>
+    <div id="global-wrapper">
+      <div class="iphone black adjust">
+        <div class="btn sleep"></div>
+        <div class="btn lock"></div>
+        <ul class="btns vol">
+          <li class="btn plus"></li>
+          <li class="btn minus"></li>
+        </ul>
+        <div class="camera"></div>
+        <div class="speaker"></div>
+        <div class="screen">
+          <header id="global-header">
+            <h1 class="ttl">Message</h1>
+          </header>
+          <div id="global-stage">
+            <div id="global-stage-inner" class="inner"></div>
+          </div>
+          <footer id="global-footer">
+            <form id="global-footer-form" class="form">
+              <input id="global-footer-form-txt" class="txt" type="text" />
+              <input id="global-footer-form-btn" class="btn submit" type="submit" value="Send" />
+            </form>
+          </footer>
+        </div>
+        <div class="btn home"></div>
+      </div>
+      <ul id="sns-btns">
+        <li class="btn tw">TW</li>
+        <li class="btn fb">FB</li>
+      </ul>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47162420-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
